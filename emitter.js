@@ -21,6 +21,7 @@ function getEmitter() {
          * @param {Function} handler
          */
         on: function (event, context, handler) {
+            //test
             console.info(event, context, handler);
         },
 
